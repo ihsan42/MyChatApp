@@ -3,7 +3,6 @@ package com.communication.mychatapp;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
-
 import java.io.UnsupportedEncodingException;
 import java.util.Properties;
 import javax.mail.Authenticator;
