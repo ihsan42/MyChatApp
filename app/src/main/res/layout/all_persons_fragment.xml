@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/editTextSearchAllPersons"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/buttonSearchAllPersons"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/ic_search_category_default" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewAllPersons"
+        android:layout_below="@id/editTextSearchAllPersons"/>
+
+</RelativeLayout>
