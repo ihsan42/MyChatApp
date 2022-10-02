@@ -6,7 +6,6 @@ import android.os.AsyncTask;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Properties;
-
 import javax.mail.Authenticator;
 import javax.mail.Message;
 import javax.mail.MessagingException;
